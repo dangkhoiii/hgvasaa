@@ -1,0 +1,11 @@
+function checkkeymess ($key) {
+    $check = 0;
+    if ($key == 'khoido') {
+        $check = 1;
+    }
+    else 
+    if ($key == 'dangkhoi') {
+        $check = 1;
+    }
+    return $check;
+}
